@@ -22,5 +22,49 @@
             <a href="#" class="navegacion__link navegacion__link--registrar">Registrar Restaurant</a>
         </nav>
     </header>
+
+    <section class="contenedor formulario">
+        <div class="formulario__grid">
+            <div class="formulario__contenido">
+                <h2 class="formulario__heading">Encuentra y pide comida de tu restaurante favorito</h2>
+
+                <div class="formulario__buscar">
+                    <div class="formulario__campo">
+                        <label for="restaurant" class="formulario__label">Restaurant</label>
+                        <input id="restaurant" type="text" class="formulario__input" placeholder="Tacos México">
+                    </div>
+                    <div class="formulario__campo">
+                        <label for="platillo" class="formulario__label">Platillo</label>
+                        <input id="platillo" type="text" class="formulario__input" placeholder="Pizza, Ensalada, Hamburguesa">
+                    </div>
+
+                    <input type="submit" class="formulario__submit" value="Buscar">
+                </div>
+            </div>
+            <div class="formulario__imagen-contenedor">
+                <img class="formulario__imagen" src="build/img/dibujo_repartidor.svg" alt="Imagen Repartidor">
+            </div>
+        </div>
+    </section>
+
+    <section class="pasos">
+        <img src="build/img/wave.svg" alt="Imagen wave" class="pasos__wave">
+
+        <div class="pasos__contenido">
+            <h2 class="pasos__heading">¿Cómo funciona? <span class="pasos__heading--descripcion">tan fácil como 1, 2 y 3</span></h2>
+
+            <div class="pasos__grid contenedor">
+                <div class="pasos__paso">
+                    <img class="pasos__imagen" src="build/img/paso_1.png" alt="Imagen paso app">
+                </div>
+                <div class="pasos__paso">
+                    <img class="pasos__imagen" src="build/img/paso_2.png" alt="Imagen paso app">
+                </div>
+                <div class="pasos__paso">
+                    <img class="pasos__imagen" src="build/img/paso_3.png" alt="Imagen paso app">
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
