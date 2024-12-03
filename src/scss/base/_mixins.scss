@@ -36,7 +36,8 @@
 
     &:hover {
         cursor: pointer;
-        background-color: darken($color, 10);
+        background-color: adjust($color, -10%); 
+
     }
 
     @include tablet {
